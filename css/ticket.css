@@ -1,0 +1,192 @@
+.ticket {
+  position: relative;
+  display: block;
+  padding-bottom: 90px;
+  background-color: none;
+}
+
+.ticket-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.ticket-header {
+  position: relative;
+  text-align: center;
+}
+
+.ticket-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black;
+}
+
+.ticket-text {
+  position: relative;
+  font-size: 1.8rem;
+  color: #a7a9a7;
+}
+
+.ticket-cate {
+  position: relative;
+  padding-top: 20px;
+}
+
+.ticket-menu {
+  position: relative;
+}
+
+.ticket-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ticket-list-bt {
+  position: relative;
+  padding: 0 25px;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 42px;
+  cursor: pointer;
+  border-radius: 44px;
+}
+
+.ticket-list-bt-active {
+  position: relative;
+  background-color: black;
+  color: white;
+}
+
+.ticket-slide {
+  position: relative;
+}
+
+.ticket-slide-wrap {
+  position: relative;
+  height: 534px;
+  margin-top: 23px;
+  background-color: none;
+  text-align: center;
+}
+
+.swiper-wrapper {
+  position: relative;
+}
+
+.ticket-item {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  border: 1px solid white;
+  overflow: hidden;
+  background-color: none;
+  border-radius: 10px;
+}
+
+.ticket-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ticket-img {
+  position: relative;
+}
+
+.ticket-img img {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.swiper-wrapper {
+  counter-reset: ticket;
+}
+.ticket-img::after {
+  position: absolute;
+  counter-increment: ticket 1;
+  content: counter(ticket);
+  color: #fff;
+  z-index: 1;
+  left: 2.2rem;
+  bottom: 1.4rem;
+  font-size: 7rem;
+  line-height: 8.35rem;
+  font-weight: 700;
+}
+
+.ticket-info {
+  position: relative;
+}
+
+.ticket-info-list {
+  position: relative;
+  padding: 16px 8px;
+  text-align: left;
+}
+
+.ticket-info-name {
+  position: relative;
+  font-family: 400;
+  font-size: 2.2rem;
+}
+
+.ticket-info-badge {
+  position: relative;
+  display: block;
+  margin: 7px 0px;
+  font-size: 1.8rem;
+}
+
+.ticket-info-day {
+  position: relative;
+  font-size: 1.5rem;
+}
+.ticket-item-badge {
+  position: relative;
+  text-align: left;
+  padding: 7px;
+  margin-left: 15px;
+  font-size: 1.3rem;
+  border: 1px solid rgba(74, 149, 255, 0.3);
+  color: #4a95ff;
+  inline-size: 63px;
+  display: flex;
+}
+.ticket-itme-name {
+  position: relative;
+  display: block;
+}
+
+.ticket-home {
+  position: relative;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.ticket-home-bt {
+  position: relative;
+  padding: 0 25px;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+  line-height: 42px;
+  cursor: pointer;
+  border-radius: 44px;
+}
+
+.ticket-home-bt::after {
+  content: "";
+  width: 0.7rem;
+  height: 1.1rem;
+  display: inline-block;
+  margin-left: 0.7rem;
+  background: url("/images/arrow-right.svg") no-repeat 50%;
+}

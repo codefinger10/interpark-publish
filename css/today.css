@@ -1,0 +1,147 @@
+.todaybook {
+  position: relative;
+  height: 700px;
+  padding-bottom: 90px;
+  background-color: none;
+}
+
+.todaybook-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.todaybook-header {
+  position: relative;
+  text-align: center;
+}
+
+.todaybook-title {
+  position: relative;
+  padding-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.todaybook-txt {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.todaybook-slide {
+  position: relative;
+  padding-top: 30px;
+}
+
+.todaybook-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.todaybook-list {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.todaybook-bt {
+  position: relative;
+  padding: 0 25px;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  line-height: 44px;
+  cursor: pointer;
+  border-radius: 42px;
+}
+.todaybook-bt-active {
+  position: relative;
+  background-color: black;
+  color: white;
+}
+
+.today-slideposi {
+  position: relative;
+  text-align: center;
+}
+
+.today-slideposi-wrap {
+  position: relative;
+  height: 425px;
+  margin-top: 23px;
+  background-color: none;
+}
+
+.today-wrapper {
+  position: relative;
+}
+
+.today-slide-link {
+  position: relative;
+}
+
+.today-slide-pic {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  width: 240px;
+}
+
+.today-slide-pic img {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+}
+  
+.today-slide-info{
+  position: relative;
+
+}
+
+.today-slide-name{
+  position: relative;
+  font-family: 400;
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+.today-slide-pay{
+  position: relative;
+  font-size: 1.8rem;
+  font-family: 700;
+  padding-top: 10px;
+}
+.today-slide-pay-inner {
+  position: relative;
+  font-size: 2.4rem;
+  font-family: 700;
+  
+}
+.todaybook-bot {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.todaybook-bot-bt {
+  position: relative;
+  padding: 0 25px;
+  background-color: white;
+  line-height: 42px;
+  cursor: pointer;
+  border-radius: 44px;
+  border: 1px solid #e5e5e5;
+}
+
+.todaybook-bot-bt::after {
+  content: "";
+  width: 0.7rem;
+  height: 1.1rem;
+  display: inline-block;
+  margin-left: 0.7rem;
+  background: url("/images/arrow-right.svg") no-repeat 50%;
+}

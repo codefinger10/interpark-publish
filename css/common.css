@@ -1,0 +1,61 @@
+/* 슬라이드 좌우 버튼 */
+.slide-prev-bt.swiper-button-disabled {
+  display: none !important;
+}
+.slide-next-bt.swiper-button-disabled {
+  display: none !important;
+}
+
+.slide-prev-bt {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.13);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.slide-prev-bt img {
+  transform: rotate(180deg);
+}
+
+.slide-next-bt {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.13);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+}
+
+.recommend-slide-all {
+  position: relative;
+  display: block;
+  height: auto;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3a3a3a;
+  font-weight: 700;
+  top: 40%;
+}
+.recommend-slide-all i {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 auto 0.6rem;
+  border-radius: 5rem;
+  background: url(/publish/images/allright.svg) no-repeat 50%;
+}

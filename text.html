@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/interlive.css" />
+  </head>
+  <body>
+    <section class="interlive">
+      <div class="interlive-inner">
+        <div class="interlive-top">
+          <img src="images/title_live.svg" alt="" />
+        </div>
+
+        <div class="interlive-slide">
+          <div class="swiper interlive-slide-wrap">
+            <div class="swiper-wrapper">
+              <!-- 첫번째 슬라이드 -->
+              <div class="swiper-slide">
+                <a href="#" class="interlive-slide-link">
+                  <div class="interlive-slide-pick">
+                    <img src="images/L1.jpg" alt="" />
+                  </div>
+                  <div class="interlive-slide-info">
+                    <div class="interlive-slide-name">방송예정</div>
+                    <div class="interlive-itemname">
+                      [에듀트립] 글로벌 캠프 첫방 기념 최초 할인! 채팅 참여만 해도 경품 추첨
+                    </div>
+                  </div>
+                  <div class="interlive-item-list">
+                  <div class="interlive-itemday">11월 08일 (수)</div>
+                  <div class="interlive-itemtime">11:00</div>
+                  </div>
+                  <div class="interlive-badge">
+                    <a href="#" class="interlive-badge-list">
+                      <div class="interlive-badge-image">
+                        <img src="images/LB1.png" alt="" />
+                      </div>
+                      <div class="interlive-badge-text">
+                        <span>[기획전] 새로운 여행, 컨셉 트립</span>
+                      </div>
+                    </a>
+                  </div>
+                </a>
+              </div>
+
+              <!-- 두번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L2.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 세번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L3.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 네번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L4.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 다섯번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L5.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 여섯번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L6.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 일곱번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L7.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 여덟번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L8.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 아홉번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L9.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 열번째 슬라이드 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L10.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 11 슬 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L1.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+              <!-- 12 슬 -->
+              <div class="swiper-slide">
+                <div class="interlive-slide-pick">
+                  <a href="#">
+                    <img src="images/L2.jpg" alt="" />
+                  </a>
+                </div>
+              </div>
+
+              <!-- 밑부분 -->
+            </div>
+          </div>
+          <button class="slide-prev-bt">
+            <img src="images/slider_arrow.svg" alt="" />
+          </button>
+          <button class="slide-next-bt">
+            <img src="images/slider_arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="interlive-bt">
+          <button class="interlive-footer-bt">인터파크 라이브 바로가기</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<script>
+  const shoppingswiper = new Swiper(".interlive-slide-wrap ", {
+    slidesPerView: 4,
+    spaceBetween: 24,
+    navigation: {
+      nextEl: ".interlive-slide .swiper-button-next",
+      prevEl: ".interlive-slide .swiper-button-prev",
+    },
+  });
+</script>

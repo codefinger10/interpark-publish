@@ -1,0 +1,220 @@
+ .tour {
+  position: relative;
+  padding-bottom: 90px;
+  display: block;
+  background-color: none;
+}
+
+.tour-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.tour-top {
+  position: relative;
+}
+
+.tour-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+.tour-text {
+  position: relative;
+  display: block;
+  
+  font-size: 1.8rem;
+  color: #a7a9a7;
+  text-align: center;
+}
+
+.tour-main {
+  position: relative;
+  text-align: center;
+  padding: 25px 0;
+  
+}
+
+.tour-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.tour-list{
+  position: relative;
+  display: flex;
+  gap : 4px;
+  margin-top: 20px;
+  
+}
+
+.tour-list-bt{
+  position: relative;
+  display: block;
+  padding: 0px 20px;
+  line-height: 42px;
+  border-radius: 44px;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.tour-list-bt-a{
+   position: relative;
+   background-color: black;
+   color: white;
+
+}
+
+.tour-slide {
+  position: relative;
+  text-align: center;
+}
+
+.tour-slide-wrap{
+  position: relative;
+  height: 355px;
+  margin-top: 23px;
+  background-color: none;
+}
+
+.tour-slide-item{
+  position: relative;
+  height: 355px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  
+}
+
+.tour-slide-link{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.tour-slide-img{
+  position: relative;
+  width: 100%;
+  height: 244px;
+  overflow: hidden;
+  background-color: blue;
+
+}
+
+.tour-slide-img img{
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tour-info{
+  position: relative;
+  padding: 23px 20px  18px;
+  text-align: left;
+}
+
+.tour-info-badge{
+  background-color: #1769ff;
+  border-radius: 4px;
+  position: absolute;
+  height: 32px;
+  padding: 0 12px;
+  left: 20px;
+  top: -16px;
+  color: white;
+  font-size: 15px;
+
+}
+
+.tour-info-badge i{
+  position: relative;
+  top:  9px;
+  right: 2px;
+}
+
+.tour-info-benefit{
+  
+  
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  color: #1769ff;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.tour-info-name{
+  
+  width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0.4rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.tour-info-price{
+ 
+  line-height: 2.4rem;
+  font-size: 2rem;
+  color: #111;
+  font-weight: 700;
+}
+
+.tour-info-curr{
+ 
+  font-size: 1.6rem;
+  vertical-align: middle;
+  color: #111;
+  font-weight: 400;
+}
+
+
+
+
+
+
+.tour-footer {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tour-footer-bt{
+  position: relative;
+  border: 1px solid #e5e5e5;  
+  border-radius: 44px;
+  line-height: 42px;
+  background-color: white;
+  cursor: pointer;
+  padding: 0 25px;
+}
+
+.tour-footer-bt::after{
+   content: "";
+    display: inline-block;
+    width: 0.7rem;
+    height: 1.1rem;
+    margin-left: 0.7rem;
+    background: url("/images/arrow-right.svg") no-repeat 50%;
+}
