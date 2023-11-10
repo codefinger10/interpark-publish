@@ -34,20 +34,28 @@
   background-color: none;
 }
 .interlive-slide-link {
-  position: relative;
+  position: absolute;
+  display: flex;
+  width: 300px;
+  height: 456px;
 }
 .interlive-slide-pick {
   position: relative;
+  object-fit: cover;
   overflow: hidden;
   border: 1px solid #e5e5e5;
   border-radius: 11px;
-  object-fit: cover;
-  background: transparent;
+  width: 100%;
 }
 .interlive-slide-pick::after {
   content: "";
   display: block;
   position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
   background: linear-gradient(
       0deg,
       rgba(34, 34, 34, 0.5),
@@ -59,12 +67,11 @@
 }
 
 .interlive-slide-pick img {
-  position: relative;
+  position: absolute;
   width: 300px;
   height: 456px;
-  z-index: 0;
+  object-fit: cover;
 }
-
 
 .interlive-slide-info {
   position: absolute;
@@ -168,8 +175,11 @@
   display: block;
 }
 
-.interlive-slide-pick img::after {
-  position: relative;
+.interlive-slide-logebg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
 }
 
 .interlive-bt {
